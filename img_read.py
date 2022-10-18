@@ -44,3 +44,8 @@ cv2.imwrite(image_path2, img2)
 print(type(img))  # 图像格式
 print(img.size)  # 像素点个数
 print(img.dtype)  # 查看数据类型
+
+# 读取彩色图
+img3 = cv2.imread("C:/Users/LianYu/Desktop/cat.jpg", cv2.IMREAD_COLOR)
+# 保存
+cv2.imwrite('cat.jpg', img3)
