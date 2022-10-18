@@ -36,10 +36,6 @@ def video_show(video_path):
     vc.release()
     cv2.destroyAllWindows()
 
-# video_show('C:/Users/LianYu/Desktop/test.mp4')
+video_show('C:/Users/LianYu/Desktop/test.mp4')
 
 
-# 截取部分图像数据
-img = cv2.imread(img_read.image_path)
-dog = img[0:200, 0:200]
-img_read.cv_show('dog', dog)
